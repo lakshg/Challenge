@@ -1,0 +1,48 @@
+<div>POST to https://www.almosafer.com/api/accommodation/property/search?accept</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;searchCriteria&quot;: [
+        {
+            &quot;lookupTypeId&quot;: 2,
+            &quot;lookupId&quot;: [
+                9
+            ]
+        }
+    ],
+    &quot;sortBy&quot;: &quot;rank&quot;,
+    &quot;sortOrder&quot;: &quot;DESC&quot;,
+    &quot;rankType&quot;: &quot;dynamic&quot;,
+    &quot;pageNo&quot;: 1,
+    &quot;pageSize&quot;: 10
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://www.almosafer.com/api/accommodation/property/search?accept&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;searchCriteria&quot;: [
+        {
+            &quot;lookupTypeId&quot;: 2,
+            &quot;lookupId&quot;: [
+                9
+            ]
+        }
+    ],
+    &quot;sortBy&quot;: &quot;rank&quot;,
+    &quot;sortOrder&quot;: &quot;DESC&quot;,
+    &quot;rankType&quot;: &quot;dynamic&quot;,
+    &quot;pageNo&quot;: 1,
+    &quot;pageSize&quot;: 10
+}&#39;
+</div>

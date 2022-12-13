@@ -1,0 +1,15 @@
+{
+  "searchCriteria": [
+    {
+      "lookupTypeId": 2,
+      "lookupId": [
+        9
+      ]
+    }
+  ],
+  "sortBy": "rank",
+  "sortOrder": "DESC",
+  "rankType": "dynamic",
+  "pageNo": 1,
+  "pageSize": 10
+}
